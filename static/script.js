@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    // Level 1: Registration validation
+    
     $("#registerForm").on("submit", function (e) {
         const name = this.name.value.trim();
         const email = this.email.value.trim();
@@ -22,7 +22,7 @@ $(document).ready(function () {
         }
     });
 
-    // Level 4: Live clock
+    
     function updateClock() {
         const clock = document.getElementById("clock");
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
     updateClock();
     setInterval(updateClock, 1000);
 
-    // Level 4: Show or hide student details
+    
     $("#toggleBtn").on("click", function () {
         $("#studentDetails").toggle();
     });
