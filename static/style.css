@@ -1,0 +1,98 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+.card {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000012;
+}
+
+h1, h2 {
+    color: #2563eb;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+
+input, select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button, .button-link {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover, .button-link:hover {
+    background: #1d4ed8;
+}
+
+.error {
+    color: #dc2626;
+}
+
+#message {
+    font-weight: bold;
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: auto;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+#studentDetails {
+    margin-top: 20px;
+    padding: 12px;
+    background: #f8fafc;
+    border-radius: 8px;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 12px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    .topbar h1 {
+        font-size: 23px;
+    }
+}
